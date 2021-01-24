@@ -1,10 +1,10 @@
 n = int(input('Введите число N: '))
 print('Введите сравниваемые числа: ')
-max = int(input())
+max = float(input())
 t = max
 
 for i in range(1, n):
-    inp = int(input())
+    inp = float(input())
     if inp > max:
         t = max
         max = inp

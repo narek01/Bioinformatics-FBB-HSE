@@ -1,5 +1,4 @@
-na = input("Enter the nucleotide sequence : ")
-na = na.lower()
+na = input("Enter the nucleotide sequence : ").lower()
 
 if 'u' in na and 't' in na:
     print('Check the sequence!')
