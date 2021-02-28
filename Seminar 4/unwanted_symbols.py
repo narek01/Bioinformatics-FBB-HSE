@@ -8,7 +8,7 @@ i = 0
 l = True
 while l:
     l = file.readline().replace('\n', '')
-    k = l.replace('G', '').replace('C', '').replace('A', '').replace('T', '').replace('', '')
+    k = l.replace('G', '').replace('C', '').replace('A', '').replace('T', '').replace('N', '')
     if k and k[0] != '>':
         print(k)
         print(i)
