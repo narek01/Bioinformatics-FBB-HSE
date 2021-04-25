@@ -45,8 +45,8 @@ paired_res = deseq(meta_paired, "~ Tissue + Pairs")
 unpaired_res = deseq(meta_unpaired, "~ Tissue")
 """
 
-paired_res = pd.read_csv("https://raw.githubusercontent.com/narek01/Bioinformatics-FBB-HSE/main/Seminar%2013/Task 2/DESeq2_results_paired.tsv", sep="\t", index_col=0)
-unpaired_res = pd.read_csv("https://raw.githubusercontent.com/narek01/Bioinformatics-FBB-HSE/main/Seminar%2013/Task2/DESeq2_results_unpaired.tsv", sep="\t", index_col=0)
+paired_res = pd.read_csv("https://raw.githubusercontent.com/narek01/Bioinformatics-FBB-HSE/main/Seminar%2013/Task%202/DESeq2_results_paired.tsv", sep="\t", index_col=0)
+unpaired_res = pd.read_csv("https://raw.githubusercontent.com/narek01/Bioinformatics-FBB-HSE/main/Seminar%2013/Task%202/DESeq2_results_unpaired.tsv", sep="\t", index_col=0)
 
 print("Paired:", len(paired_res.loc[paired_res["padj"] < 0.05]), "genes are differential expressed. Top-10:", ", ".join(set(paired_res.index[:10])))
 # Paired: 3847 genes are differential expressed. Top-10: GYLTL1B, KRT80, MMP7, CST1, TRIM29, GRIN2D, KLK10, C2CD4A, CDH3, RP11-474D1.3

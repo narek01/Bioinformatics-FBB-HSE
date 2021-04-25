@@ -50,7 +50,7 @@ def intersections(df1, df2, methods):
         print(f"\nNo common genes between {methods} methods")
 
 
-deseq = pd.read_csv("https://raw.githubusercontent.com/narek01/Bioinformatics-FBB-HSE/main/Seminar%2013/Task 3/DESeq2_results_unpaired.tsv", sep="\t", index_col=0)["padj"][:10]
+deseq = pd.read_csv("https://raw.githubusercontent.com/narek01/Bioinformatics-FBB-HSE/main/Seminar%2013/Task%203/DESeq2_results_unpaired.tsv", sep="\t", index_col=0)["padj"][:10]
 
 df = pd.read_csv(unpaired_FPKM_path, sep="\t", index_col=0)
 
