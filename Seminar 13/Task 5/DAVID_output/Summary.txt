@@ -1,0 +1,24 @@
+Sample 1
+Total records: 	   44
+p-value < 0.05:	   20
+Benjamini < 0.05:  0
+
+Sample 2
+Total records:     65
+p-value < 0.05:    29
+Benjamini < 0.05:  0
+
+Sample 3
+Total records: 	   71
+p-value < 0.05:    30
+Benjamini < 0.05:  0
+
+Sample 4
+Total records: 	   123
+p-value < 0.05:    51
+Benjamini < 0.05:  0
+
+Sample 5
+Total records:	   96
+p-value < 0.05:    29
+Benjamini < 0.05:  0
